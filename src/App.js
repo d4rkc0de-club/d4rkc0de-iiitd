@@ -4,6 +4,7 @@ import Main from "./pages/main";
 import About from "./pages/about";
 import Events from "./pages/events";
 import Members from "./pages/members";
+import Join from "./pages/join";
 import Contact from "./pages/contact";
 import Footer from "./pages/footer";
 
@@ -15,6 +16,7 @@ export default function App() {
             <About />
             <Events />
             <Members />
+            <Join />
             <Contact />
             <Footer />
         </>

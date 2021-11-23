@@ -1,12 +1,24 @@
 import React from 'react';
+import { Flex, Box, Text } from '@chakra-ui/react';
+import EventsCard from '../components/EventsCard/eventscard';
 
-export default class Events extends React.Component {
-    render() {
-        return (
-        <div>
-            <h1>Events</h1>
-            <p>This is the events</p>
-        </div>
-        );
-    }
+export default function Events() {
+    const events = [
+        {
+            image: 'https://via.placeholder.com/200x200',
+            title: 'Hackathon',
+            desc: 'description'
+        }
+    ];
+
+    // TODO: Check props validation
+
+    return (
+        <Flex direction="column" justify="center" align="center">
+            <Text>Events</Text>
+            <Box>
+                <EventsCard props={events} />
+            </Box>
+        </Flex>
+    );
 }

@@ -1,12 +1,10 @@
 import React from "react";
+import { Box, Image } from "@chakra-ui/react";
 
-export default class Main extends React.Component {
-    render() {
-        return (
-        <div>
-            <h1>Main</h1>
-            <p>This is the main</p>
-        </div>
-        );
-    }
+export default function Main() {
+    return (
+        <Box>
+            <Image src="https://via.placeholder.com/350x350" alt="d4rkc0de" />
+        </Box>
+    );
 }
