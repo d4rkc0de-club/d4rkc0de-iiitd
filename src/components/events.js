@@ -1,6 +1,6 @@
 import React from 'react';
 import { Flex, Box, Text } from '@chakra-ui/react';
-import EventsCard from '../components/EventsCard/eventscard';
+import EventsCard from './EventsCard/eventscard';
 
 export default function Events() {
     const events = [
