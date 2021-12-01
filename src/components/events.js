@@ -1,6 +1,9 @@
 import React from 'react';
 import { Flex, Box, Text } from '@chakra-ui/react';
 import EventsCard from './EventsCard/eventscard';
+import Slider from 'react-slick';
+import styled from 'styled-components';
+import times from 'lodash/times';
 
 export default function Events() {
     const events = [
@@ -11,14 +14,53 @@ export default function Events() {
         }
     ];
 
+    const slidesNum = window.innerWidth < 600 ? 1: 4;
+
+    const slidesScroll = window.innerWidth < 600 ? 1 : 2;
+
+    const settings = {
+        dots: true,
+        infinite: true,
+        slidesToShow: slidesNum,
+        slidesToScroll: slidesScroll,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        cssEase: 'ease-in-out',
+        pauseOnHover: true,
+        arrows: true,
+        centerMode: true,
+        centerPadding: '30px',
+    };
+
+    const ElemBox = styled.div`
+    padding: 10px;
+    height: 300px;`
+
+    const ImageBox = styled.div`
+    img {
+        width: 100%;
+    }
+    border-radius: 16px;
+    `
     // TODO: Check props validation
 
     return (
-        <Flex direction="column" justify="center" align="center">
-            <Text>Events</Text>
-            <Box>
-                <EventsCard props={events} />
-            </Box>
-        </Flex>
+        <Box>
+            <Text width="100%" textAlign="center">Events</Text>
+            <Slider {...settings}>
+            {times(events.length, String).map((id, index) => (
+                <div key={index}>
+                    <ElemBox key={`Event-${id}`}>
+                    <ImageBox>
+                        <img src={events[id].image} />
+                    </ImageBox>
+                    <Text>{events[id].title}</Text>
+                    <Text>{events[id].desc}</Text>
+                </ElemBox>
+                </div>
+            ))}
+            </Slider>
+            
+        </Box>
     );
 }
