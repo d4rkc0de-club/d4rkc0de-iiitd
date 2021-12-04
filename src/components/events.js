@@ -1,6 +1,5 @@
 import React from 'react';
-import { Flex, Box, Text } from '@chakra-ui/react';
-import EventsCard from './EventsCard/eventscard';
+import { Box, Text } from '@chakra-ui/react';
 import Slider from 'react-slick';
 import styled from 'styled-components';
 import times from 'lodash/times';
@@ -52,7 +51,7 @@ export default function Events() {
                 <div key={index}>
                     <ElemBox key={`Event-${id}`}>
                     <ImageBox>
-                        <img src={events[id].image} />
+                        <img src={events[id].image}  alt={"event"}/>
                     </ImageBox>
                     <Text>{events[id].title}</Text>
                     <Text>{events[id].desc}</Text>
@@ -60,7 +59,7 @@ export default function Events() {
                 </div>
             ))}
             </Slider>
-            
+
         </Box>
     );
 }
