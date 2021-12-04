@@ -19,6 +19,7 @@ export default function Landing() {
       />
       <About />
       <Contact />
+      <Events />
     </LandingLayout>
     <Events />
     </>
