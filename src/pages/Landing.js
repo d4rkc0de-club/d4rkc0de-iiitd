@@ -7,14 +7,7 @@ import Events from "../components/events";
 
 export default function Landing() {
   return (
-    <><LandingLayout>
-      <Hero
-        title="D4rkc0de website"
-        subtitle="Lorem Ipsum"
-        image="https://source.unsplash.com/collection/404339/800x600"
-        ctaText="Lorem Ipsum"
-        ctaLink="#" />
-    </LandingLayout>
+    <>
     <Events />
     </>
   );
