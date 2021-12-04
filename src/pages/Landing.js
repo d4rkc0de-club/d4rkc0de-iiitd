@@ -11,11 +11,11 @@ export default function Landing() {
   return (
     <><LandingLayout>
       <Hero
-        title="D4rkc0de website"
+        title="root@d4rkc0de:~# \"
         subtitle="Lorem Ipsum"
-        image="https://source.unsplash.com/collection/404339/800x600"
-        ctaText="Lorem Ipsum"
-        ctaLink="#"
+        image="https://www.linkpicture.com/q/home_image.jpg"
+        // ctaText="Lorem Ipsum"
+        // ctaLink="#"
       />
       <About />
       <Contact />
