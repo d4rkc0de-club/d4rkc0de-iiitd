@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Text } from '@chakra-ui/react';
+import { Box, Text, Flex } from '@chakra-ui/react';
 import Slider from 'react-slick';
 import styled from 'styled-components';
 import times from 'lodash/times';
@@ -59,22 +59,21 @@ export default function Events() {
     // TODO: Check props validation
 
     return (
-        <Box>
-            <Text width="100%" textAlign="center">Events</Text>
-            <Slider {...settings}>
+        <Box align="center" maxW={{ xl: "1200px" }}>
+            <Text fontSize='3xl' color="primary.800" pb="35px">
+                {">> "} Events {" <<"}
+            </Text>
+            <Slider {...settings} >
             {times(events.length, String).map((id, index) => (
-                <div key={index}>
-                    <ElemBox key={`Event-${id}`}>
+                <Box key={`Event-${id}`}>
                     <ImageBox>
-                        <img src={events[id].image}  alt={"event"}/>
+                        <img src={events[id].image}  alt="{events[id].title}"/>
                     </ImageBox>
                     <Text>{events[id].title}</Text>
                     <Text>{events[id].desc}</Text>
-                </ElemBox>
-                </div>
+                </Box>
             ))}
             </Slider>
-
         </Box>
     );
 }

@@ -22,7 +22,8 @@
   
   .slick-prev:before,
   .slick-next:before {
-    color: #E6E6E6;
+    color: #03A062;
+    font-weight: bold;
   }
   
   .slick-dots li button:before {
@@ -35,3 +36,12 @@
   .slick-dots li.slick-active button:before {
       color:rgba(4, 171, 176, 0.51) !important;
   }
+
+  .slick-prev:before {
+    content: "<";
+  }
+  
+  .slick-next:before {
+    content: ">";
+  }
+  
