@@ -4,12 +4,20 @@ import { Flex, Box, Text, Image } from "@chakra-ui/react";
 export default function About() {
     return (
         <Flex direction="column" justify="center" align="center">
-            <Text>About Us</Text>
+            <Text fontSize='3xl' color="primary.800" pb="35px">
+                {">> "} About Us {" <<"}
+            </Text>
+
             <Box>
-                <Flex direction="row" justify="space-between" align="center">
+                <Flex
+                    direction="row"
+                    justify="space-between"
+                    align="center"
+                >
                     <Image
                         src="https://via.placeholder.com/350x350"
                         alt="d4rkc0de"
+                        pr="30px"
                     />
                     <Text>
                         lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
