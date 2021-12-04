@@ -1,14 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import {
   Box,
-  Button,
   Flex,
   Image,
   Heading,
   Stack,
-  Text
 } from "@chakra-ui/react";
 
 export default function Hero({
@@ -37,9 +34,10 @@ export default function Hero({
       >
         <Heading
           as="h1"
+          fontSize='60px'
           size="xl"
           fontWeight="bold"
-          color="primary.800"
+          color="primary.940"
           textAlign={["center", "center", "left", "left"]}
         >
           {title}
@@ -47,15 +45,17 @@ export default function Hero({
         <Heading
           as="h2"
           size="md"
-          color="primary.800"
+          fontSize='50px'
+          color="white"
           opacity="0.8"
-          fontWeight="normal"
+          fontWeight="600"
           lineHeight={1.5}
           textAlign={["center", "center", "left", "left"]}
+          fontFamily=""
         >
           {subtitle}
         </Heading>
-        <Link to={ctaLink}>
+        {/* <Link to={ctaLink}>
           <Button
             colorScheme="primary"
             borderRadius="8px"
@@ -75,9 +75,10 @@ export default function Hero({
           opacity="0.6"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting
-        </Text>
+        </Text> */}
       </Stack>
-      <Box w={{ base: "80%", sm: "60%", md: "50%" }} mb={{ base: 12, md: 0 }}>
+      {/* <Box w={{ base: "80%", sm: "60%", md: "50%" }} mb={{ base: 12, md: 0 }}> */}
+      <Box w="35%">
         <Image src={image} size="100%" rounded="1rem" shadow="2xl" />
       </Box>
     </Flex>

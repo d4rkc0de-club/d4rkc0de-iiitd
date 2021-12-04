@@ -51,13 +51,13 @@ const Header = (props) => {
       w="100%"
       mb={8}
       p={8}
-      bg={["primary.500", "primary.500", "transparent", "transparent"]}
+      bg={["primary.500", "primary.500", "transparent", "primary.950"]}
       color={["white", "white", "primary.700", "primary.700"]}
       {...props}
     >
       <Flex align="center">
         <Logo
-          w="100px"
+          w="150px"
           color={["white", "white", "primary.500", "primary.500"]}
         />
       </Flex>
@@ -75,6 +75,7 @@ const Header = (props) => {
           justify={["center", "space-between", "flex-end", "flex-end"]}
           direction={["column", "row", "row", "row"]}
           pt={[4, 4, 0, 0]}
+          color="primary.940"
         >
           <MenuItem to="#">Home</MenuItem>
           <MenuItem to="#">About Us </MenuItem>
