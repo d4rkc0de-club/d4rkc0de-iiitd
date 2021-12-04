@@ -21,7 +21,6 @@ export default function Landing() {
       <Contact />
       <Events />
     </LandingLayout>
-    <Events />
     </>
   );
 }
