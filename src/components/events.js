@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Text, Flex } from '@chakra-ui/react';
+import { Box, Text } from '@chakra-ui/react';
 import Slider from 'react-slick';
 import styled from 'styled-components';
 import times from 'lodash/times';
@@ -49,10 +49,6 @@ export default function Events() {
         centerPadding: '30px',
     };
 
-    const ElemBox = styled.div`
-    padding: 10px;
-    height: 300px;`
-
     const ImageBox = styled.div`
     border-radius: 16px;
     `
@@ -64,7 +60,7 @@ export default function Events() {
                 {">> "} Events {" <<"}
             </Text>
             <Slider {...settings} >
-            {times(events.length, String).map((id, index) => (
+            {times(events.length, String).map(id => (
                 <Box key={`Event-${id}`}>
                     <ImageBox>
                         <img src={events[id].image}  alt="{events[id].title}"/>
