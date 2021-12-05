@@ -55,8 +55,8 @@ export default function Events() {
     // TODO: Check props validation
 
     return (
-        <Box align="center" maxW={{ xl: "1200px" }}>
-            <Text fontSize='3xl' color="primary.800" pb="35px">
+        <Box align="center" maxW={{ xl: "1200px" }} mb="7rem">
+            <Text fontSize='5xl' color="primary.800" pb="35px" fontWeight={"bolder"}>
                 {">> "} Events {" <<"}
             </Text>
             <Slider {...settings} >

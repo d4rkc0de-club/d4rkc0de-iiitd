@@ -1,10 +1,10 @@
 import React from "react";
-import { Flex, Box, Text, Image } from "@chakra-ui/react";
+import {Flex, Box, Text, Image, Center} from "@chakra-ui/react";
 
 export default function About() {
     return (
-        <Flex direction="column" justify="center" align="center">
-            <Text fontSize='3xl' color="primary.800" pb="35px">
+        <Flex direction="column" justify="center" align="center" mb="7rem">
+            <Text fontSize='5xl' color="primary.800" pb="35px" fontWeight={"bolder"}>
                 {">> "} About Us {" <<"}
             </Text>
 
@@ -14,12 +14,14 @@ export default function About() {
                     justify="space-between"
                     align="center"
                 >
-                    <Image
-                        src="https://via.placeholder.com/350x350"
-                        alt="d4rkc0de"
-                        pr="30px"
-                    />
-                    <Text>
+                    <Center w="50%">
+                        <Image
+                            src="https://via.placeholder.com/350x350"
+                            alt="d4rkc0de"
+                            pr="30px"
+                        />
+                    </Center>
+                    <Text maxW={"50%"}>
                         lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                         do eiusmod tempor incididunt ut labore et dolore magna
                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation

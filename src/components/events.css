@@ -4,35 +4,35 @@
     margin-left: 3%;
     margin-top: 1%;
   }
-  
+
   .Marquee:hover {
     animation-play-state: paused !important;
   }
-  
+
   .slick-dots li button:before {
     color: #fff;
     opacity: 0.5;
   }
-  
+
   .slick-dots li.slick-active button:before {
     opacity: 0.75;
     color: #fff;
     font-size: 12px;
   }
-  
+
   .slick-prev:before,
   .slick-next:before {
-    color: #03A062;
+    color: #00F40A;
     font-weight: bold;
   }
-  
+
   .slick-dots li button:before {
       color:rgba(4, 171, 176, 0.22);
       line-height: 10px;
       font-size: 10px;
       margin-top:2vw;
   }
-  
+
   .slick-dots li.slick-active button:before {
       color:rgba(4, 171, 176, 0.51) !important;
   }
@@ -40,8 +40,7 @@
   .slick-prev:before {
     content: "<";
   }
-  
+
   .slick-next:before {
     content: ">";
   }
-  

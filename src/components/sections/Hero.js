@@ -29,7 +29,7 @@ export default function Hero({
     >
       <Stack
         spacing={4}
-        w={{ base: "80%", md: "40%" }}
+        w={{ base: "80%", md: "55%" }}
         align={["center", "center", "flex-start", "flex-start"]}
       >
         <Heading

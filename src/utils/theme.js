@@ -2,22 +2,22 @@ import { extendTheme } from "@chakra-ui/react";
 
 const colors = {
   primary: {
-    100: "#03A062",
-    200: "#03A062",
-    300: "#03A062",
-    400: "#03A062",
-    500: "#03A062",
-    600: "#03A062",
-    700: "#03A062",
-    800: "#03A062",
-    900: "#03A062",
+    100: "#00F40A",
+    200: "#00F40A",
+    300: "#00F40A",
+    400: "#00F40A",
+    500: "#00F40A",
+    600: "#00F40A",
+    700: "#00F40A",
+    800: "#00F40A",
+    900: "#00F40A",
     940: "#03F405",
     950: "#2F2F2F",
   }
 };
 const config = {
   initialColorMode: "dark",
-  
+
   // useSystemColorMode: true,
 }
 const customTheme = extendTheme({
@@ -27,6 +27,15 @@ const customTheme = extendTheme({
         bg: 'black',
       },
     },
-  }, colors, config });
+  }, colors, config,
+  components: {
+    Text: {
+      baseStyle: {
+        fontSize: "2xl"
+      },
+    },
+  }
+})
+
 
 export default customTheme;
