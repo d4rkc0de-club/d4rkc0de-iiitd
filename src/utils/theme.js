@@ -31,7 +31,7 @@ const customTheme = extendTheme({
   components: {
     Text: {
       baseStyle: {
-        fontSize: "2xl"
+        fontSize: "xl"
       },
     },
   }
