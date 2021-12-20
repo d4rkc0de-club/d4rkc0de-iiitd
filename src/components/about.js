@@ -22,14 +22,22 @@ export default function About() {
                         />
                     </Center>
                     <Text maxW={"50%"}>
-                        lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                        do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit
-                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                        occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt mollit anim id est laborum.
+                        It’s a general notion that Compute Science and Technology is just about coding. We often forget
+                        the most critical aspect of it, which is security. A vulnerable software jeopardises the privacy
+                        of the user. Having knowledge about it is very important. So we present to you d4rkc0de, the
+                        cyber security club of IIIT Delhi.
+
+                        <br />
+                        Cyber security is a relatively unknown field to most because of a lack of awareness and
+                        resources. We at d4rkc0de aim to change that.
+
+                        <br />
+                        We share various resources and conduct live, hands-on sessions for the same. We provide a
+                        platform for people to discuss cyber security. To keep the competitive spirit, we also have
+                        various tournaments with amazing prizes.
+
+                        <br />
+                        We only ask for your willingness to learn.
                     </Text>
                 </Flex>
             </Box>
