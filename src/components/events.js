@@ -73,9 +73,7 @@ export default function Events() {
             <Slider {...settings} >
             {times(events.length, String).map(id => (
                 <Box key={`Event-${id}`} m="0px 50px">
-                    <ImageBox>
-                        <img src={events[id].image}  alt="{events[id].title}"/>
-                    </ImageBox>
+                    
                     <Text>{events[id].title}</Text>
                     <Text>{events[id].desc}</Text>
                 </Box>
