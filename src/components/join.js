@@ -10,7 +10,7 @@ export default function Join() {
 
             <Box>
                 <Flex
-                    direction="row-reverse"
+                    direction={{xl:"row-reverse", base:"column-reverse"}}
                     justify="space-between"
                     align="center"
                 >
