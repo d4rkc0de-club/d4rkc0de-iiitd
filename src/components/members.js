@@ -81,7 +81,7 @@ export default function Members() {
                 w="100%"
             >
                 <Text
-                    fontSize="5xl"
+                    fontSize={{md:'5xl', base: '4xl'}}
                     color="primary.800"
                     pb="35px"
                     fontWeight={"bolder"}

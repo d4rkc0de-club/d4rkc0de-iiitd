@@ -34,7 +34,7 @@ export default function Hero({
       >
         <Heading
           as="h1"
-          fontSize='60px'
+          fontSize={{md:'5xl', base: '4xl'}}
           size="xl"
           fontWeight="bold"
           color="primary.940"
@@ -45,7 +45,7 @@ export default function Hero({
         <Heading
           as="h2"
           size="md"
-          fontSize='50px'
+          fontSize={{md:'4xl', base: '2xl'}}
           color="white"
           opacity="0.8"
           fontWeight="600"

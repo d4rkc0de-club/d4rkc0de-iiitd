@@ -63,7 +63,7 @@ export default function Events() {
     return (
         <Flex direction="column" justify="center" align="center" mb="7rem" w="100%">
         <Box w="90%" align="center">
-            <Text fontSize='5xl' color="primary.800" pb="35px" fontWeight={"bolder"}>
+            <Text fontSize={{md:'5xl', base: '4xl'}} color="primary.800" pb="35px" fontWeight={"bolder"}>
                 {">> "} Events {" <<"}
             </Text>
             <Slider {...settings} >

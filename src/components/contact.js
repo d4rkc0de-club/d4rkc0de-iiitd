@@ -5,7 +5,7 @@ export default class Contact extends React.Component {
     render() {
         return (
         <div>
-            <Text fontSize='5xl' color="primary.800" pb="35px" fontWeight={"bolder"} align={"center"}>
+            <Text fontSize={{md:'5xl', base: '4xl'}} color="primary.800" pb="35px" fontWeight={"bolder"} align={"center"}>
                 {">> "} Contact Us {" <<"}
             </Text>
             <Grid templateColumns='repeat(5, 1fr)' gap={4} pb="30px">

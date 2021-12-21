@@ -4,7 +4,7 @@ import {Flex, Box, Text, } from "@chakra-ui/react";
 export default function Join() {
     return (
         <Flex direction="column" justify="center" align="center" mb="7rem">
-            <Text fontSize='5xl' color="primary.800" pb="35px" fontWeight={"bolder"}>
+            <Text fontSize={{md:'5xl', base: '4xl'}} color="primary.800" pb="35px" fontWeight={"bolder"}>
                 {">> "} Join Us {" <<"}
             </Text>
 
