@@ -15,11 +15,12 @@ export default function About() {
                     align="center"
                     wrap="wrap"
                 >
-                    <Center w="100%">
+                    <Center maxW={["100%", "50%"]} mb={[9,0]}>
                         <Image
                             src="https://via.placeholder.com/350x350"
                             alt="d4rkc0de"
                             pr="30px"
+                            maxW={["80%", "100%"]}
                         />
                     </Center>
                     <Text maxW={["100%","50%"]}>
