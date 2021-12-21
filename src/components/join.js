@@ -13,15 +13,16 @@ export default function Join() {
                     direction="row-reverse"
                     justify="space-between"
                     align="center"
+                    wrap="wrap"
                 >
-                    <Center w="50%">
+                    <Center w="100%">
                         <Image
                             src="https://via.placeholder.com/350x350"
                             alt="d4rkc0de"
                             pr="30px"
                         />
                     </Center>
-                    <Text maxW={"50%"}>
+                    <Text maxW={["100%", "50%"]}>
                         lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                         do eiusmod tempor incididunt ut labore et dolore magna
                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation
