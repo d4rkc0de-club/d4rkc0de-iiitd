@@ -24,6 +24,7 @@ export default function Landing() {
                 <Join />
                 <Contact />
             </LandingLayout>
+            
         </>
     );
 }
