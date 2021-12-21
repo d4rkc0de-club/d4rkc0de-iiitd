@@ -85,8 +85,8 @@ const Header = (props) => {
             <Button
               size="sm"
               rounded="md"
-              color={["primary.500", "primary.500", "white", "white"]}
-              bg={["white", "white", "primary.500", "primary.500"]}
+              color="black"
+              bg="primary.500"
               _hover={{
                 bg: ["primary.100", "primary.100", "primary.600", "primary.600"]
               }}
