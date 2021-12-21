@@ -7,7 +7,7 @@ export default function Logo(props) {
       {/* <Text fontSize="lg" fontWeight="bold">
         Logo test
       </Text> */}
-      <Image src="https://www.linkpicture.com/q/logo_88.jpg" size='100%'/>
+      <Image src="https://www.linkpicture.com/q/logo_darkcode.png" size='100%'/>
     </Box>
   );
 }
