@@ -91,7 +91,7 @@ export default function Members() {
 
                 <Box w="100%">
                     <Accordion allowToggle>
-                        <AccordionItem>
+                        <AccordionItem m="25px 0px">
                             <AccordionButton
                                 h="70px"
                                 border="4px"
@@ -114,7 +114,7 @@ export default function Members() {
                                 </Table>
                             </AccordionPanel>
                         </AccordionItem>
-                        <AccordionItem>
+                        <AccordionItem m="25px 0px">
                             <AccordionButton
                                 h="70px"
                                 border="4px"
@@ -137,7 +137,7 @@ export default function Members() {
                                 </Table>
                             </AccordionPanel>
                         </AccordionItem>
-                        <AccordionItem>
+                        <AccordionItem m="25px 0px">
                             <AccordionButton
                                 h="70px"
                                 border="4px"
