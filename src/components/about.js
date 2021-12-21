@@ -24,7 +24,7 @@ export default function About() {
                         />
                     </Center>
                     <Text maxW={["100%","50%"]}>
-                        It’s a general notion that Compute Science and Technology is just about coding. We often forget
+                        It’s a general notion that Computer Science and Technology is just about coding. We often forget
                         the most critical aspect of it, which is security. A vulnerable software jeopardises the privacy
                         of the user. Having knowledge about it is very important. So we present to you d4rkc0de, the
                         cyber security club of IIIT Delhi.
