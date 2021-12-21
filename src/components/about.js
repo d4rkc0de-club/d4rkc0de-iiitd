@@ -10,7 +10,7 @@ export default function About() {
 
             <Box>
                 <Flex
-                    direction={{xl:"row", base:"column"}}
+                    direction={{md:"row", base:"column"}}
                     justify="space-between"
                     align="center"
                     wrap="wrap"
