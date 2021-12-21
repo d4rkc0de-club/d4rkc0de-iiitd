@@ -29,9 +29,19 @@ export default function Events() {
             image: 'https://via.placeholder.com/200x200',
             title: 'Hackathon2',
             desc: 'description'
+        },
+        {
+            image: 'https://via.placeholder.com/200x200',
+            title: 'Hackathon2',
+            desc: 'description'
+        },
+        {
+            image: 'https://via.placeholder.com/200x200',
+            title: 'Hackathon2',
+            desc: 'description'
         }
     ];
-    const slidesNum = window.innerWidth < 600 ? 1: 3;
+    const slidesNum = window.innerWidth < 600 ? window.innerWidth/300: 4;
 
     const slidesScroll = window.innerWidth < 600 ? 1 : 2;
 
