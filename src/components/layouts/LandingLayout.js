@@ -4,7 +4,7 @@ import Header from "../sections/Header";
 
 export default function LandingLayout(props) {
   return (
-      <Box>
+      <Box mx={3}>
         <Header/>
           <Flex
             direction="column"

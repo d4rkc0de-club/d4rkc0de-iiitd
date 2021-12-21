@@ -1,7 +1,6 @@
 import React from 'react';
 import { Box, Flex, Text } from '@chakra-ui/react';
 import Slider from 'react-slick';
-import styled from 'styled-components';
 import times from 'lodash/times';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -59,9 +58,6 @@ export default function Events() {
         centerPadding: '30px',
     };
 
-    const ImageBox = styled.div`
-    border-radius: 16px;
-    `
     // TODO: Check props validation
 
     return (
@@ -73,7 +69,7 @@ export default function Events() {
             <Slider {...settings} >
             {times(events.length, String).map(id => (
                 <Box key={`Event-${id}`} m="0px 50px">
-                    
+
                     <Text>{events[id].title}</Text>
                     <Text>{events[id].desc}</Text>
                 </Box>

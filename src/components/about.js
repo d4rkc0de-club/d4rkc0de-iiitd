@@ -13,15 +13,16 @@ export default function About() {
                     direction={{xl:"row", base:"column"}}
                     justify="space-between"
                     align="center"
+                    wrap="wrap"
                 >
-                    <Center w="50%">
+                    <Center w="100%">
                         <Image
                             src="https://via.placeholder.com/350x350"
                             alt="d4rkc0de"
                             pr="30px"
                         />
                     </Center>
-                    <Text maxW={"50%"}>
+                    <Text maxW={["100%","50%"]}>
                         It’s a general notion that Compute Science and Technology is just about coding. We often forget
                         the most critical aspect of it, which is security. A vulnerable software jeopardises the privacy
                         of the user. Having knowledge about it is very important. So we present to you d4rkc0de, the
