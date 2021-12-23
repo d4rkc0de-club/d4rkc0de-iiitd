@@ -17,35 +17,87 @@ import {
 export default function Members() {
     const coordinators = {
         1: {
-            name: "Name 1",
-            email: "abc@xyz.com",
+            name: "Arpit Nandi",
+            email: "arpit20179@iiitd.ac.in",
         },
         2: {
-            name: "Name 2",
-            email: "abc@xyz.com",
+            name: "Abhishek Pratap Singh",
+            email: "abhishek18211@iiitd.ac.in",
         },
     };
 
     const techies = {
         1: {
-            name: "Name 1",
-            email: "abc@xyz.com",
+            name: "Pragyan Mehrotra",
+            email: "pragyan18168@iiitd.ac.in",
         },
         2: {
-            name: "Name 2",
-            email: "abc@xyz.com",
+            name: "Aditya Pratap Singh",
+            email: "aditya20016@iiitd.ac.in",
         },
+        3: {
+            name: "Sanyam Agarwal",
+            email: "sanyam18261@iiitd.ac.in",
+        },
+        4: {
+            name: "Priyansh Anand",
+            email: "priyansh19078@iiitd.ac.in"
+        }
     };
 
     const creatives = {
         1: {
-            name: "Name 1",
-            email: "abc@xyz.com",
+            name: "Pragyan Yadav",
+            email: "pragyan20226@iiitd.ac.in",
         },
         2: {
-            name: "Name 2",
-            email: "abc@xyz.com",
+            name: "Charvi Jindal",
+            email: "charvi20045@iiitd.ac.in",
         },
+        3: {
+            name: "Yogesh Kaushik",
+            email: "yogesh20163@iiitd.ac.in"
+        },
+        4: {
+            name: "Sumit Kumar",
+            email: "sumit20249@iiitd.ac.in"
+        },
+        5: {
+            name: "Shubham Rao",
+            email: "shubham20246@iiitd.ac.in"
+        },
+        6: {
+            name: "Kumar Ankit",
+            email: "kumar20214@iiitd.ac.in"
+        },
+        7: {
+            name: "Shivam Arora",
+            email: "shivam19390@iiitd.ac.in"
+        },
+        8: {
+            name: "Kabir Singh Mehrok",
+            email:"kabir20382@iiitd.ac.in"
+        },
+        9: {
+            name: "Akshansh U Pagare",
+            email: "akshansh20302@iiitd.ac.in"
+        },
+        10: {
+            name:"Yash Agrawal",
+            email: "yash20551@iiitd.ac.in"
+        },
+        11: {
+            name: "Rahul",
+            email: "rahul20534@iiitd.ac.in"
+        },
+        12: {
+            name: "Utkarsh Arora",
+            email: "utkarsh20143@iiitd.ac.in"
+        },
+        13: {
+            name: "Shikhar Sharma",
+            email: "shikhar20121@iiitd.ac.in"
+        }
     };
 
     const coordinatorsItems = Object.entries(coordinators).map(
