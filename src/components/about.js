@@ -17,10 +17,11 @@ export default function About() {
                 >
                     <Center maxW={["100%", "50%"]} mb={[9,0]}>
                         <Image
-                            src="https://via.placeholder.com/350x350"
+                            src="https://i.imgur.com/bqGqvFk.png"
                             alt="d4rkc0de"
                             pr="30px"
                             maxW={["80%", "100%"]}
+                            px={["1rem", "4rem"]}
                         />
                     </Center>
                     <Text maxW={["100%","50%"]}>
