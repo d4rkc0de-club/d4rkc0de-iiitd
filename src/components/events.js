@@ -1,7 +1,6 @@
 import React from 'react';
 import { Box, Flex, Text } from '@chakra-ui/react';
 import Slider from 'react-slick';
-import times from 'lodash/times';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./events.css";

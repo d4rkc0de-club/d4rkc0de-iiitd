@@ -1,5 +1,6 @@
 import React from "react";
-import {Flex, Box, Text, } from "@chakra-ui/react";
+import {Flex, Box, Text, Center, Link,} from "@chakra-ui/react";
+import {FaDiscord, FaTelegram} from "react-icons/all";
 
 export default function Join() {
     return (
@@ -17,8 +18,12 @@ export default function Join() {
                    <li>Sharing your profiles of lab environments like HackTheBox, TryHackMe and others also makes you eligible for membership<br></br></li>
                     <br></br>
                     </ul>
-                <a href="https://t.me/joinchat/QuKJ5QEQAK-6Z__J" style={{color:"blue",fontSize:"17px"}}>Join us on Telegram</a> &ensp;
-                <a href="https://discord.gg/uP3bFcm6yp" style={{color:"blue",fontSize:"17px"}}>Join us on Discord </a>
+
+                    <Center>
+                        <Link href="https://t.me/joinchat/QuKJ5QEQAK-6Z__J" mx="1rem"><FaTelegram
+                            size={'3rem'} color={"#00F40A"}/></Link> &ensp;
+                        <Link href="https://discord.gg/uP3bFcm6yp" mx="1rem"><FaDiscord size={'3rem'} color={"#00F40A"}/></Link>
+                    </Center>
                 </Text>
             </Box>
         </Flex>
