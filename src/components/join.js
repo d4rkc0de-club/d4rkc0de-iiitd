@@ -10,14 +10,13 @@ export default function Join() {
 
             <Box>
                 <Text>
-                    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                There are various ways to join our club: <br></br>
+                    Participate in our CTFs and we provide the top 3 performers with the chance to join us.<br></br>
+                    Share your CTFTime profile to d4rkcode@sc.iiitd.ac.in and arpit20179@iiitd.ac.in if you have performed well in CTFs organised by other organizations<br></br>
+                    Sharing your profiles of lab environments like HackTheBox, TryHackMe and others also makes you eligible for membership<br></br>
+                    <br></br>
+                    <a href="https://t.me/joinchat/QuKJ5QEQAK-6Z__J">Join us on Telegram</a><br></br>
+                    <a href="https://discord.gg/uP3bFcm6yp">Join us on Discord </a>
                 </Text>
             </Box>
         </Flex>
