@@ -15,7 +15,7 @@ export default function Landing() {
             <LandingLayout>
                 <Hero
                     title="root@d4rkc0de:~#"
-                    subtitle="Lorem Ipsum"
+                    subtitle="A Single Vulnerability is all it takes"
                     image="https://www.linkpicture.com/q/home_image.jpg"
                 />
                 <About />
