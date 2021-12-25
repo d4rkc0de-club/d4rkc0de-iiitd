@@ -56,7 +56,7 @@ export default function Events() {
             {events.map(event => (
                 <Box key={`Event-${event}`} m="0px 50px">
 
-                    <Text>{event.title}</Text>
+                    <Text><h3>{event.title}</h3></Text>
                     <Text>{event.desc}</Text>
                 </Box>
             ))}
