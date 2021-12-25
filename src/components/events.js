@@ -11,12 +11,12 @@ export default function Events() {
         {
             image: 'https://via.placeholder.com/200x200',
             title: 'Hacking Sessions',
-            desc: 'description'
+            desc: "Educative discussion sessions where we discuss techniques on how to conduct various attacks"
         },
         {
             image: 'https://via.placeholder.com/200x200',
             title: 'Intra IIITD CTF',
-            desc: 'description'
+            desc: "CTF event aimed for all students studying in IIITD "
         },
         {
             image: 'https://via.placeholder.com/200x200',
@@ -56,7 +56,7 @@ export default function Events() {
             {events.map(event => (
                 <Box key={`Event-${event}`} m="0px 50px">
 
-                    <Text>{event.title}</Text>
+                    <Text><h3>{event.title}</h3></Text>
                     <Text>{event.desc}</Text>
                 </Box>
             ))}
