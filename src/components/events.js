@@ -11,34 +11,20 @@ export default function Events() {
     const events = [
         {
             image: 'https://via.placeholder.com/200x200',
-            title: 'Hackathon1',
+            title: 'Hacking Sessions',
             desc: 'description'
         },
         {
             image: 'https://via.placeholder.com/200x200',
-            title: 'Hackathon2',
+            title: 'Intra IIITD CTF',
             desc: 'description'
         },
         {
             image: 'https://via.placeholder.com/200x200',
-            title: 'Hackathon1',
-            desc: 'description'
+            title: 'h4ck0n Global CTF',
+            desc: "d4rkcode's flagship event"
         },
-        {
-            image: 'https://via.placeholder.com/200x200',
-            title: 'Hackathon2',
-            desc: 'description'
-        },
-        {
-            image: 'https://via.placeholder.com/200x200',
-            title: 'Hackathon2',
-            desc: 'description'
-        },
-        {
-            image: 'https://via.placeholder.com/200x200',
-            title: 'Hackathon2',
-            desc: 'description'
-        }
+        
     ];
     const slidesNum = window.innerWidth < 600 ? window.innerWidth/300: 4;
 
