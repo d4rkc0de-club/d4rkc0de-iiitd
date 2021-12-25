@@ -10,13 +10,18 @@ export default function Join() {
 
             <Box>
                 <Text>
-                There are various ways to join our club: <br></br>
+                There are various ways to join our club: <br>
+                <style>
+                    p {
+                        text-indent: 50px;
+                    }
                 <ul>
                    <li>Participate in our CTFs and we provide the top 3 performers with the chance to join us.<br></br></li>
                    <li>Share your CTFTime profile to <u><a href="mailto:d4rkcode@sc.iiitd.ac.in">d4rkcode@sc.iiitd.ac.in</a></u> and <u><a href="arpit20179@iiitd.ac.in">arpit20179@iiitd.ac.in</a></u> if you have performed well in CTFs organised by other organizations<br></br></li>
                    <li>Sharing your profiles of lab environments like HackTheBox, TryHackMe and others also makes you eligible for membership<br></br></li>
-                    <br></br>
-                    </ul>
+                    <br>
+                </ul>
+                </style>
                     <a href="https://t.me/joinchat/QuKJ5QEQAK-6Z__J" style={{color:"blue",fontSize:"17px"}}>Join us on Telegram</a> &ensp;
                     <a href="https://discord.gg/uP3bFcm6yp" style={{color:"blue",fontSize:"17px"}}>Join us on Discord </a>
                 </Text>
