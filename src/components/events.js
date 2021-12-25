@@ -24,7 +24,8 @@ export default function Events() {
             title: 'h4ck0n Global CTF',
             desc: "d4rkcode's flagship event"
         },
-        
+
+
     ];
     const slidesNum = window.innerWidth < 600 ? window.innerWidth/300: 4;
 
@@ -33,7 +34,7 @@ export default function Events() {
     const settings = {
         dots: true,
         infinite: true,
-        slidesToShow: slidesNum,
+        slidesToShow: Math.min(slidesNum, events.length),
         slidesToScroll: slidesScroll,
         autoplay: true,
         autoplaySpeed: 1500,
@@ -53,11 +54,11 @@ export default function Events() {
                 {">> "} Events {" <<"}
             </Text>
             <Slider {...settings} >
-            {times(events.length, String).map(id => (
-                <Box key={`Event-${id}`} m="0px 50px">
+            {events.map(event => (
+                <Box key={`Event-${event}`} m="0px 50px">
 
-                    <Text>{events[id].title}</Text>
-                    <Text>{events[id].desc}</Text>
+                    <Text>{event.title}</Text>
+                    <Text>{event.desc}</Text>
                 </Box>
             ))}
             </Slider>
