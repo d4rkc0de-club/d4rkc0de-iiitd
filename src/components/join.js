@@ -4,7 +4,7 @@ import {FaDiscord, FaTelegram} from "react-icons/all";
 
 export default function Join() {
     return (
-        <Flex direction="column" justify="center" align="center" mb="7rem">
+        <Flex direction="column" justify="center" align="center" mb="7rem" id="join">
             <Text fontSize={{md:'5xl', base: '4xl'}} color="primary.800" pb="35px" fontWeight={"bolder"}>
                 {">> "} Join Us {" <<"}
             </Text>

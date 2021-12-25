@@ -4,7 +4,7 @@ import {Grid, GridItem, Text} from "@chakra-ui/react";
 export default class Contact extends React.Component {
     render() {
         return (
-        <div>
+        <div id="contact">
             <Text fontSize={{md:'5xl', base: '4xl'}} color="primary.800" pb="35px" fontWeight={"bolder"} align={"center"}>
                 {">> "} Contact Us {" <<"}
             </Text>

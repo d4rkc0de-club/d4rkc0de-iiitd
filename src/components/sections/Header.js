@@ -1,9 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Box, Flex, Text, Button } from "@chakra-ui/react";
 import Logo from "../ui/Logo";
 
-const MenuItem = ({ children, isLast, to = "/", ...rest }) => {
+const MenuItem = ({ children, isLast, to, ...rest }) => {
   return (
     <Text
       mb={{ base: isLast ? 0 : 8, sm: 0 }}
@@ -11,7 +10,7 @@ const MenuItem = ({ children, isLast, to = "/", ...rest }) => {
       display="block"
       {...rest}
     >
-      <Link to={to}>{children}</Link>
+      <a href={to}>{children}</a>
     </Text>
   );
 };
@@ -51,7 +50,7 @@ const Header = (props) => {
       w="100%"
       mb={8}
       p={8}
-      
+
       color={["white", "white", "primary.700", "primary.700"]}
       {...props}
     >
@@ -77,11 +76,11 @@ const Header = (props) => {
           pt={[4, 4, 0, 0]}
           color="primary.940"
         >
-          <MenuItem to="#">Home</MenuItem>
-          <MenuItem to="#">About Us </MenuItem>
-          <MenuItem to="#">Events </MenuItem>
-          <MenuItem to="#">Members </MenuItem>
-          <MenuItem to="#" isLast>
+          <MenuItem to="/">Home</MenuItem>
+          <MenuItem to="#about">About Us </MenuItem>
+          <MenuItem to="#events">Events </MenuItem>
+          <MenuItem to="#members">Members </MenuItem>
+          <MenuItem to="#join" isLast>
             <Button
               size="sm"
               rounded="md"

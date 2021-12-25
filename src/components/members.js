@@ -131,6 +131,7 @@ export default function Members() {
                 align="center"
                 mb="7rem"
                 w="100%"
+                id="members"
             >
                 <Text
                     fontSize={{md:'5xl', base: '4xl'}}
