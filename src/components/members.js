@@ -68,7 +68,7 @@ export default function Members() {
         },
         6: {
             name: "Kumar Ankit",
-            email: "kumar20214@iiitd.ac.in"
+            email: "ankit20214@iiitd.ac.in"
         },
         7: {
             name: "Shivam Arora",
