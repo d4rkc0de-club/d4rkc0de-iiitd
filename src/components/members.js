@@ -42,6 +42,22 @@ export default function Members() {
         4: {
             name: "Priyansh Anand",
             email: "priyansh19078@iiitd.ac.in"
+        },
+        5: {
+            name: "Anindya Prithvi",
+            email: "anindya20024@iiitd.ac.in"
+        },
+        6: {
+            name: "Mehul Arora",
+            email: "mehul21066@iiitd.ac.in"
+        },
+        7: {
+            name: "Sameer Gupta",
+            email: "sameer21093@iiitd.ac.in"
+        },
+        8: {
+            name: "Sarthak Kalpasi",
+            email: "sarthak21197@iiitd.ac.in"
         }
     };
 
@@ -97,7 +113,11 @@ export default function Members() {
         13: {
             name: "Shikhar Sharma",
             email: "shikhar20121@iiitd.ac.in"
-        }
+        },
+        14: {
+            name: "Gunar Sindhwani",
+            email: "gunar20199@iiitd.ac.in"
+        },
     };
 
     const coordinatorsItems = Object.entries(coordinators).map(
